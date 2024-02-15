@@ -37,6 +37,7 @@ export function SearchForm() {
       <input
         type="text"
         placeholder="Busque por transações"
+        autoComplete="off"
         {...register('query')}
       />
       <button type="submit" disabled={isSubmitting}>

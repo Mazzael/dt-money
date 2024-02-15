@@ -70,18 +70,21 @@ export function NewTransactionModal() {
         <form onSubmit={handleSubmit(handleCreateNewTransaction)}>
           <input
             type="text"
+            autoComplete="off"
             placeholder="Descrição"
             required
             {...register('description')}
           />
           <input
             type="number"
+            autoComplete="off"
             placeholder="Preço"
             required
             {...register('price', { valueAsNumber: true })}
           />
           <input
             type="text"
+            autoComplete="off"
             placeholder="Categoria"
             required
             {...register('category')}
