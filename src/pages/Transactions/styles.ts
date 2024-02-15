@@ -39,3 +39,21 @@ export const PriceHighLight = styled.span<PriceHighLightProps>`
       ? props.theme['green-300']
       : props.theme['red-300']};
 `
+
+export const TrashButton = styled.button`
+  height: 3.125rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  border: 0;
+
+  background: ${(props) => props.theme['red-500']};
+  color: ${(props) => props.theme.white};
+
+  cursor: pointer;
+
+  &:hover {
+    background: ${(props) => props.theme['red-700']};
+
+    transition: background-color 0.2s;
+  }
+`
