@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-02-07T13:34:37.060Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-02-07T13:10:37.060Z"
+    },
+    {
+      "id": 3,
+      "description": "Teclado",
+      "type": "outcome",
+      "category": "Música",
+      "price": 3000,
+      "createdAt": "2024-02-14T13:10:37.060Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-02-15T00:20:25.203Z",
+      "id": 4
+    },
+    {
+      "description": "Pasta Dr. Peanut",
+      "price": 40,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-02-15T00:32:13.665Z",
+      "id": 5
+    }
+  ]
+}
